@@ -1,0 +1,42 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body
+{
+    display: flex;
+    justify-self: center;
+    align-items: center ;
+    min-height: 100vh;
+    background-color: teal;
+}
+h2
+{
+    position: relative;
+    font-size: 6rem;
+    color :white;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center; 
+}
+h2
+{
+    animation: animate 5s linear infinite;
+}
+@keyframes animate
+{
+    0%,18%
+    {
+        color: blue;
+        text-shadow: 0 0 10px rgb(0, 195, 255),
+        0 0 20px rgb(0, 195, 255),
+        0 0 20px rgb(0, 195, 255),
+        0 0 20px rgb(0, 195, 255),
+        0 0 20px rgb(0, 195, 255),
+        0 0 20px rgb(0, 195, 255),
+        0 0 20px rgb(0, 195, 255);
+    }
+}
